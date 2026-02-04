@@ -2,9 +2,11 @@ import './App.css';
 
 function App() {
   return (
-    <>
-      <h1>hello world</h1>
-    </>
+    <div className="App">
+      <div>Header</div>
+      <div>Todo Editor</div>
+      <div>Todo List</div>
+    </div>
   );
 }
 
