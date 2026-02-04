@@ -1,0 +1,25 @@
+.todoItem {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border-bottom: 1px solid #c3c3c3;
+  padding-bottom: 5px;
+}
+
+.todoItem_content {
+  flex: 1;
+}
+
+.todoItem_date {
+  font-size: 14px;
+  color: gray;
+}
+
+.todoItem button {
+  width: 35px;
+  height: 25px;
+  font-size: 14px;
+  background-color: rgb(255, 129, 129);
+  color: white;
+  border-radius: 3px;
+}
