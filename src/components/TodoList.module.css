@@ -1,0 +1,19 @@
+.todoList {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.todoList input {
+  height: 45px;
+  padding: 10px;
+  border: none;
+  border-bottom: 1px solid #c3c3c3;
+}
+
+.todoList input:focus {
+  outline: none;
+  border-bottom: 1px solid #1f03ff;
+}
